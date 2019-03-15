@@ -6,7 +6,7 @@ public class Demo {
             System.out.println("I am covered");
             return;
         }
-
+throw new NullPointerException();
         System.out.println("I am not covered");
     }
 }
